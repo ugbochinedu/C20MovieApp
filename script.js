@@ -1,1 +1,0 @@
-https://api.themoviedb.org/3/movie/popular?api_key=717ccf6765dcaa577801cadcc372f394
