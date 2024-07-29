@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navWrapper{
+    width: 100vw;
+    background-color: bisque;    
+}
+
+.navBar{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 50px;
+}
+
+.navBar ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar ul li{
+    list-style: none;
+}
+
+.navBar ul{
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.navBar button{
+    width: 70px;
+    height: 30px;
+}
+
+.searchInput{
+    display: grid;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.searchInput input{
+    width: 300px;
+    height: 30px;
+}
+
+.image img{
+    width: 280px;
+    height: 350px;
+}
+
+.movieBox{
+    width: 280px;
+}
+
+.movieContainer{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.titleAndRating{
+    display: flex;
+    justify-content: space-between;
+}
